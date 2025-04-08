@@ -1,29 +1,100 @@
-# 🧮 EquationSolver
+Original App Design Project - README Template
+===
 
-**EquationSolver** is a SwiftUI app that uses Apple's **Vision** framework and **DDMathParser** to recognize and solve mathematical equations from images. Snap a photo of a handwritten or printed equation, and get the solution instantly!
+# APP_NAME_HERE
 
----
+## Table of Contents
 
-## 🚀 Features
+1. [Overview](#Overview)
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
 
-- 📸 **Image-Based Input**: Take or upload a photo containing a math equation.
-- 🧠 **Text Recognition**: Uses the Vision framework to extract mathematical expressions from images.
-- 🔢 **Equation Solving**: Parses and solves math expressions with DDMathParser.
-- 🧑‍🎓 **SwiftUI Interface**: Clean and intuitive user interface for ease of use.
+## Overview
 
----
+### Description
 
-## 🛠 Technologies Used
+[Provide a brief description of your app, its purpose, and functionality.]
 
-- **SwiftUI** – For building the UI.
-- **Vision** – Apple's framework for text and image recognition.
-- **DDMathParser** – Interprets and evaluates the recognized math expressions.
+### App Evaluation
 
----
+[Evaluation of your app across the following attributes]
+- **Category:** [e.g., Social, Entertainment, Education]
+- **Mobile:** [Is it a mobile application only?]
+- **Story:**  [What story does your app tell?]
+- **Market:** [Target audience for the app]
+- **Habit:** [Is it a daily use app or occasional use?]
+- **Scope:** [Is it a broad or narrow app in terms of features?]
 
-## 📷 How It Works
+## Product Spec
 
-1. The user selects or captures a photo with a math equation.
-2. The Vision framework processes the image and extracts text.
-3. The extracted text is passed to DDMathParser to parse and compute the result.
-4. The result is shown in the UI.
+### 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+
+* [User can [specific action, e.g., register an account]]
+* ...
+
+**Optional Nice-to-have Stories**
+
+* [User can [specific action, e.g., persist user information across working sessions]]
+* ...
+
+### 2. Screen Archetypes
+
+- [ ] [**Screen Name, e.g., Login Screen**]
+* [Required User Feature: User can log in.]
+- [ ] [**Another Screen Name**]
+* [Associated required user story]
+...
+...
+...
+
+### 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+
+- [ ] [First Tab, e.g., Home Feed]
+- [ ] [Second Tab, e.g., Profile]
+...
+...
+...
+
+**Flow Navigation** (Screen to Screen)
+
+- [ ] [**Screen Name**]
+  * Leads to [**Next Screen**]
+- [ ] [**Another Screen Name**]
+  * Leads to [**Another Screen**] 
+
+
+## Wireframes
+
+[Add picture of your hand sketched wireframes in this section]
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+
+
+### Models
+
+[Model Name, e.g., User]
+| Property | Type   | Description                                  |
+|----------|--------|----------------------------------------------|
+| username | String | unique id for the user post (default field)   |
+| password | String | user's password for login authentication      |
+| ...      | ...    | ...                          
+
+
+### Networking
+
+- [List of network requests by screen]
+- [Example: `[GET] /users` - to retrieve user data]
+- ...
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
