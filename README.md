@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Equation Solver
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Original App Design Project - README Template
 
 ### Description
 
-[Provide a brief description of your app, its purpose, and functionality.]
+MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathParser [ADD MORE LIBRARIES IF NEEDED] to recognize and solve mathematical equations from images. Snap a photo of a handwritten or printed equation, and get the solution instantly!
 
 ### App Evaluation
 
