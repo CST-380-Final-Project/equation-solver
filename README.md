@@ -35,7 +35,6 @@ MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathPar
 * User can take a photo of a math equation
 * User can import an equation image from their photo library
 * User can get the solution to the recognized equation
-* User can view their history of solved equations
 * User can access basic arithmetic, algebraic, and quadratic equation solving
 
 **Optional Nice-to-have Stories**
@@ -43,6 +42,7 @@ MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathPar
 * User can see step-by-step solution explanations
 * User can scan and solve multiple equations at once
 * User can export solutions as images or PDFs
+* User can view their history of solved equations
 * User can access advanced math functions (calculus, trigonometry)
 * User can receive practice problems similar to ones they've solved
 
