@@ -81,7 +81,8 @@ MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathPar
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
+<img src = "https://github.com/user-attachments/assets/51603dd4-c57a-454f-a7e7-f36f027d51a2" width=600 height=600>'
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
