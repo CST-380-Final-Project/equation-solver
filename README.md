@@ -75,7 +75,7 @@ MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathPar
   * leads to [**History Screen**] with history button
 - [ ] [**Photo Screen**]
     * Leads to [**Problem Screen**] when equation is recognized or exit button tapped
-- [ ] [**History Screen**]
+- [ ] [**History Screen**] - Optional
     * Leads to [**Problem Screen**] when exit button is tapped or old equation is tapped
 
 
