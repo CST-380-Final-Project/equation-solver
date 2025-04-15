@@ -14,7 +14,7 @@ Original App Design Project - README Template
 
 ### Description
 
-MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathParser [ADD MORE LIBRARIES IF NEEDED] to recognize and solve mathematical equations from images. Snap a photo of a handwritten or printed equation, and get the solution instantly!
+MathSnapSolver is a SwiftUI app that uses Apple's Vision framework and DDMathParser to recognize and solve mathematical equations from images. Snap a photo of a handwritten or printed equation, and get the solution instantly!
 
 ### App Evaluation
 
