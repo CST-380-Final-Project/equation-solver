@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showSecondScreen = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                Text("Hello, world!")
+                
+                Button("Get Started") {
+                    showSecondScreen = true
+                }
+                .padding()
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                .padding(.top, 20)
+            }
+            .padding()
+            .navigationDestination(isPresented: $showSecondScreen) {
+                MainScreen()
+            }
         }
-        .padding()
+    }
+}
+
+struct MainScreen: View {
+    var body: some View {
+        Text("Screen 2")
+            .navigationTitle("Second Screen")
     }
 }
 
